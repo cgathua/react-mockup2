@@ -5,7 +5,7 @@
     --secondary-color: #000000;
     --tertiary-color: #575757;
     --alternate-color: #FFFFFF;
-    --active-color: #2E2EFF;
+    --rgba-primary: rgba(0, 0, 0, 0.1);
     --desktop-container: 80%;
     --mobile-container: 90%;
     --transition: all 0.3s linear;
@@ -71,7 +71,4 @@ h1, h2, h3, h4 {
     color: var(--secondary-color);
 }
 
-h1 {
-    color: var(--alternate-color);
-}
   

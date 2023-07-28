@@ -1,3 +1,69 @@
 .NavBar2, .MenuBtn {
     display: none;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid var(--rgba-primary);
+    padding: 4px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+  color: var(--color-primary);
+  font-size: 1.25rem;
+  padding: 0 0.25rem;
+}
+
+.logo:hover {
+    background-color: var(--rgba-primary);
+}
+/* End of header */
+
+.NavigationMenuRoot {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    z-index: 1;
+}
+
+.NavigationMenuList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+.NavigationMenuLink {
+  padding: 8px 12px;
+  outline: none;
+  user-select: none;
+  font-weight: 500;
+  line-height: 1;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: var(--color-primary);
+}
+
+.NavigationMenuLink:focus {
+  box-shadow: 0 0 0 2px var(--color-primary);
+}
+
+.NavigationMenuLink:hover {
+  background-color: var(--rgba-primary);
+}
+
+.NavigationMenuLink {
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1;
+}
+/* End of nav menu *//*
