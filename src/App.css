@@ -1,18 +1,20 @@
-.NavBar2, .MenuBtn {
-    display: none;
+.NavBar2,
+.MenuBtn {
+  display: none;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    border-bottom: 1px solid var(--rgba-primary);
-    padding: 4px;
-    position: fixed;
-    width: 100vw;
-    top: 0;
-    left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  border-bottom: 1px solid var(--rgba-primary);
+  padding: 4px;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .logo {
@@ -22,22 +24,21 @@ header {
 }
 
 .logo:hover {
-    background-color: var(--rgba-primary);
+  background-color: var(--rgba-primary);
 }
+
 /* End of header */
 
 .NavigationMenuRoot {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .NavigationMenuList {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -61,9 +62,38 @@ header {
 }
 
 .NavigationMenuLink {
-    display: block;
-    text-decoration: none;
-    font-size: 1rem;
-    line-height: 1;
+  display: block;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1;
 }
-/* End of nav menu *//*
+
+/* End of  desktop nav menu */
+
+section[class="hero"] .container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  place-items: center;
+  gap: 1rem;
+}
+
+.HomeImage {
+  filter: drop-shadow(0 0 5px var(--rgba-primary));
+}
+
+article[class="info"] .delivery {
+  background-color: var(--primary-color);
+  width: max-content;
+  padding: 0px 10px;
+  margin-bottom: 1rem;
+}
+
+.LapTimerIcon {
+  height: 1rem;
+  width: 1rem;
+  top: .125em;
+  position: relative;
+  margin-left: 0.5rem;
+}
+
+/* End of Home Section */

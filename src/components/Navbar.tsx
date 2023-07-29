@@ -22,7 +22,7 @@ const NavigationMenuDesktop = () => {
             <NavigationMenu.Root className='NavigationMenuRoot' value='string'>
                 <NavigationMenu.List className='NavigationMenuList'>
                     <NavigationMenu.Item>
-                        <NavigationMenu.Link className="NavigationMenuLink" href="#">
+                        <NavigationMenu.Link className="NavigationMenuLink" href="#home">
                             Home
                         </NavigationMenu.Link>
                     </NavigationMenu.Item>
