@@ -12,7 +12,7 @@ import SixthImgAvif from '/pexels-tuur-tisseghem-818043.avif';
 import SixthImg from '/pexels-tuur-tisseghem-818043.jpg'
 
 
-function Phones() {
+function Phones(): JSX.Element {
     return (
         <section id="phones" className='ProductsSection'>
             <h2>Phones</h2>

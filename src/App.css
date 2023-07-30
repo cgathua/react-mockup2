@@ -117,3 +117,43 @@ section[class="ProductsSection"] .container {
 }
 
 /* End of Phones Section */
+section[id="refurbished"] {
+  background-color: var(--alternate-color);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(pexels-david-bartus-963278.jpg);
+
+  @supports (background-image: url('pexels-david-bartus-963278.webp')) {
+    background-image: url('pexels-david-bartus-963278.webp');
+  }
+}
+
+section[id="refurbished"] .container {
+  display: grid;
+  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(min-content, 1fr);
+  gap: 1rem;
+  place-items: center;
+
+}
+
+section[id="refurbished"] h2 {
+  background-color: var(--secondary-color);
+  color: var(--alternate-color);
+  max-width: fit-content;
+  padding: 0 0.5rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.RefurbArticle {
+  background-color: var(--secondary-color);
+  text-align: center;
+  place-items: center;
+  padding: 1rem;
+}
+
+.RefurbText,
+.RefurbPara {
+  color: var(--alternate-color);
+}

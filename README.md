@@ -18,3 +18,5 @@ Photo by Tyler Lastovich: https://www.pexels.com/photo/black-android-smartphone-
 Photo by Pixabay: https://www.pexels.com/photo/apple-apple-devices-black-and-white-blur-270686/
 
 Photo by Tuur  Tisseghem: https://www.pexels.com/photo/space-gray-iphone-8-818043/
+
+Photo by David Bartus: https://www.pexels.com/photo/white-and-black-wooden-board-963278/

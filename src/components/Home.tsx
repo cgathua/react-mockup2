@@ -1,7 +1,7 @@
 import { LapTimerIcon } from "@radix-ui/react-icons"
 
 
-function Home() {
+function Home(): JSX.Element {
     return (
         <section id="home" className="hero">
             <div className="container">
