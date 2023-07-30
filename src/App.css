@@ -15,6 +15,8 @@ header {
   top: 0;
   left: 0;
   z-index: 1;
+  background-color: var(--rgba-secondary);
+
 }
 
 .logo {
@@ -96,4 +98,21 @@ article[class="info"] .delivery {
   margin-left: 0.5rem;
 }
 
+
 /* End of Home Section */
+
+section[class="ProductsSection"] .container {
+  display: grid;
+  grid-template-columns: minmax(min-content, 1fr)
+  minmax(min-content, 1fr) minmax(min-content, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+
+.ProductsColumn h3 {
+  padding-top: 1rem;
+}
+
+.ProductsColumn picture {
+  aspect-ratio: 16/9;
+}

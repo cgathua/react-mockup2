@@ -6,6 +6,7 @@
     --tertiary-color: #575757;
     --alternate-color: #FFFFFF;
     --rgba-primary: rgba(0, 0, 0, 0.1);
+    --rgba-secondary: rgba(255, 255, 255, 0.8);
     --desktop-container: 84%;
     --mobile-container: 90%;
     --transition: all 0.3s linear;
@@ -93,16 +94,13 @@ h4 {
     cursor: pointer;
     transition: var(--transition);
     margin: 1rem auto;
+    font-size: 1rem;
 }
 
 .btn:hover {
     background-color: var(--primary-color);
 }
 
-.btnprimary {
-    background-color: var(--secondary-color);
-    color: var(--alternate-color);
-}
 
 section {
     padding: 4rem 0;

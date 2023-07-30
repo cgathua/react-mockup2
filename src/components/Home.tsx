@@ -22,8 +22,8 @@ function Home() {
                         srcSet="pexels-jess-bailey600w.avif 640w, pexels-jess-bailey.png 960w"
                         sizes="(max-width: 600px) 640w, 960w"
                         alt="iphone X" 
-                        width={1280} 
-                        height={960} 
+                        width={960} 
+                        height={720} 
                         className="HomeImage"
                     />
                 </aside>
