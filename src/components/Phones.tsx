@@ -23,7 +23,7 @@ function Phones() {
                         <img src={FirstImg} width={640} height={427} alt="iphone x" loading='lazy' />
                     </picture>
                     <h3>iphone X</h3>
-                    <button className="btn">$699</button>
+                    <button className="btn BtnPrimary">$699</button>
                 </article>
 
                 <article className="ProductsColumn">
@@ -32,7 +32,7 @@ function Phones() {
                         <img src={SecondImg} width={640} height={427} alt="iphone 6" loading='lazy' />
                     </picture>
                     <h3>iphone 6</h3>
-                    <button className="btn secondary">$299</button>
+                    <button className="btn BtnPrimary">$299</button>
                 </article>
 
                 <article className="ProductsColumn">
@@ -41,7 +41,7 @@ function Phones() {
                         <img src={ThirdImg} width={640} height={427} alt="iphone se" loading='lazy' />
                     </picture>
                     <h3>iphone SE</h3>
-                    <button className="btn">$199</button>
+                    <button className="btn BtnPrimary">$199</button>
                 </article>
 
                 <article className="ProductsColumn">
@@ -50,7 +50,7 @@ function Phones() {
                         <img src={FourthImg} width={640} height={427} alt="iphone xr" loading='lazy' />
                     </picture>
                     <h3>iphone XR</h3>
-                    <button className="btn">$499</button>
+                    <button className="btn BtnPrimary">$499</button>
                 </article>
 
                 <article className="ProductsColumn">
@@ -59,7 +59,7 @@ function Phones() {
                         <img src={FifthImg} width={640} height={427} alt="iphone 5s" loading='lazy'/>
                     </picture>
                     <h3>iphone 5S</h3>
-                    <button className="btn">$199</button>
+                    <button className="btn BtnPrimary">$199</button>
                 </article>
 
                 <article className="ProductsColumn">
@@ -68,7 +68,7 @@ function Phones() {
                         <img src={SixthImg} width={640} height={427} alt="iphone 7" loading='lazy' />
                     </picture>
                     <h3>iphone 7</h3>
-                    <button className="btn">$299</button>
+                    <button className="btn BtnPrimary">$299</button>
                 </article>
             </div>
         </section>

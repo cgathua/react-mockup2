@@ -11,9 +11,9 @@ const NavigationMenuDesktop = () => {
 
     let ulLists: ULList = [
         { id: 0, link: '#home', title: 'Home' },
-        { id: 1, link: '#services', title: 'Services' },
-        { id: 2, link: '#faqs', title: 'FAQ' },
-        { id: 3, link: '#reviews', title: 'Reviews' },
+        { id: 1, link: '#phones', title: 'Phones' },
+        { id: 2, link: '#refurbished', title: 'Why Buy Refurbished?' },
+        { id: 3, link: '#faq', title: 'FAQs' },
         { id: 4, link: '#contact', title: 'Contact' }
     ]
     return (
@@ -35,7 +35,7 @@ const NavigationMenuDesktop = () => {
 
                     <NavigationMenu.Item>
                         <NavigationMenu.Link className="NavigationMenuLink" href="#refurbished">
-                            Refurbished
+                            Why Buy Refurbished?
                         </NavigationMenu.Link>
                     </NavigationMenu.Item>
 

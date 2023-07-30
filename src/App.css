@@ -76,7 +76,7 @@ section[class="hero"] .container {
   display: grid;
   grid-template-columns: 30% 70%;
   place-items: center;
-  gap: 1rem;
+  padding: 1rem;
 }
 
 .HomeImage {
@@ -98,15 +98,14 @@ article[class="info"] .delivery {
   margin-left: 0.5rem;
 }
 
-
 /* End of Home Section */
 
 section[class="ProductsSection"] .container {
   display: grid;
-  grid-template-columns: minmax(min-content, 1fr)
-  minmax(min-content, 1fr) minmax(min-content, 1fr);
+  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(min-content, 1fr);
   gap: 2rem;
   text-align: center;
+  padding: 1rem;
 }
 
 .ProductsColumn h3 {
@@ -116,3 +115,5 @@ section[class="ProductsSection"] .container {
 .ProductsColumn picture {
   aspect-ratio: 16/9;
 }
+
+/* End of Phones Section */
