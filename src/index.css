@@ -18,6 +18,8 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html {
@@ -55,7 +57,6 @@ progress {
 /* Add the correct vertical alignment in Chrome, Firefox, and Opera. */
 
 body {
-    font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
     line-height: 1.75;
     color: var(--secondary-color);
