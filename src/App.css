@@ -371,3 +371,88 @@ ul[class="footer-legal-items"] li {
 }
 
 /* end of desktop section */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--desktop-container);
+  }
+
+  .NavigationMenuRoot {
+    display: none;
+  }
+
+  .MenuBtn {
+    display: initial;
+  }
+
+  .NavBar2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    transition: 0.3s linear;
+    height: 100vh;
+    width: 16rem;
+    padding: 1rem;
+    left: -100%;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+  }
+
+  .NavBar2 li {
+    padding: 1.5rem;
+    width: 100%;
+  }
+
+  .NavBar2 li a {
+    color: var(--primary-color);
+    line-height: 1;
+    font-size: 13px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    padding: 0 5px;
+    outline: none
+  }
+
+  .NavBar2 a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+
+  .show_nav {
+    left: 0;
+  }
+
+  .hide_nav {
+    left: -100%;
+  }
+
+  .MenuBtn {
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    margin-right: 1rem;
+    color: var(--secondary-color);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .IconButton {
+    height: 24px;
+    width: 24px;
+  }
+
+  header {
+    border-bottom: 1px solid var(--rgba-primary);
+  }
+
+  /*end of hamburger menu */
+
+}
