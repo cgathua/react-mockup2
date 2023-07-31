@@ -1,5 +1,5 @@
 
-function Contact() {
+function Contact(): JSX.Element {
     return (
         <section id="contact">
             <h2>Contact</h2>
@@ -28,6 +28,7 @@ function Contact() {
                     <ul className="contact_details">
                         <li>
                             <svg
+                                aria-label="phone icon"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
                                 height="24"
@@ -43,6 +44,7 @@ function Contact() {
                         </li>
                         <li>
                             <svg 
+                                aria-label="mail icon"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
                                 height="24"
@@ -59,6 +61,7 @@ function Contact() {
                         </li>
                         <li>
                             <svg
+                                aria-label="location icon"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
                                 height="24"

@@ -9,11 +9,11 @@ function Footer(): JSX.Element {
         <footer>
             <section id="footer-socials" aria-label="social media">
                 <ul className="footer-icons">
-                    <li><a href="#" aria-label="discord"><DiscordLogoIcon /></a></li>
-                    <li><a href="#" aria-label="twitter"><TwitterLogoIcon /></a></li>
-                    <li><a href="#" aria-label="instagram"><InstagramLogoIcon /></a></li>
-                    <li><a href="#" aria-label="linkedin"><LinkedInLogoIcon /></a></li>
-                    <li><a href="#home" aria-label="home"><HomeIcon /></a></li>
+                    <li><a href="#" aria-label="discord"><DiscordLogoIcon  aria-hidden/></a></li>
+                    <li><a href="#" aria-label="twitter"><TwitterLogoIcon  aria-hidden/></a></li>
+                    <li><a href="#" aria-label="instagram"><InstagramLogoIcon  aria-hidden/></a></li>
+                    <li><a href="#" aria-label="linkedin"><LinkedInLogoIcon aria-hidden/></a></li>
+                    <li><a href="#home" aria-label="home"><HomeIcon  aria-hidden/></a></li>
                 </ul>
             </section>
 

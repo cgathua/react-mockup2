@@ -6,7 +6,9 @@ function Refurbished(): JSX.Element {
             <h2>Why Buy Refurbished</h2>
             <div className="container">
                 <article className="RefurbArticle">
-                    <svg xmlns="http://www.w3.org/2000/svg"
+                    <svg 
+                        aria-label="dollar icon"
+                        xmlns="http://www.w3.org/2000/svg"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -25,7 +27,9 @@ function Refurbished(): JSX.Element {
                 </article>
 
                 <article className="RefurbArticle">
-                    <svg xmlns="http://www.w3.org/2000/svg"
+                    <svg 
+                        aria-label="globe icon"
+                        xmlns="http://www.w3.org/2000/svg"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -44,7 +48,9 @@ function Refurbished(): JSX.Element {
                 </article>
 
                 <article className="RefurbArticle">
-                    <svg xmlns="http://www.w3.org/2000/svg"
+                    <svg 
+                        aria-label="check circle icon"
+                        xmlns="http://www.w3.org/2000/svg"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"

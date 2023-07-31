@@ -9,7 +9,7 @@ import FourthImg from '/pexels-tyler-lastovich-719399.jpg';
 import FifthImgAvif from '/pexels-pixabay-270686.avif';
 import FifthImg from '/pexels-pixabay-270686.jpg';
 import SixthImgAvif from '/pexels-tuur-tisseghem-818043.avif';
-import SixthImg from '/pexels-tuur-tisseghem-818043.jpg'
+import SixthImg from '/pexels-tuur-tisseghem-818043.jpg';
 
 
 function Phones(): JSX.Element {

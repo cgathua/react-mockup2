@@ -1,7 +1,7 @@
 import * as Accordion from '@radix-ui/react-accordion';
 import { ChevronDownIcon } from '@radix-ui/react-icons';
 
-function FAQs() {
+function FAQs(): JSX.Element {
     return (
         <section id="faq">
             <h2>FAQs</h2>
@@ -10,7 +10,7 @@ function FAQs() {
                     <Accordion.Item className="AccordionItem" value="item-1">
                         <Accordion.Trigger className="AccordionTrigger">
                             <span>Is an extended warranty available?</span>
-                            <ChevronDownIcon className="AccordionChevron" />
+                            <ChevronDownIcon className="AccordionChevron" aria-hidden />
                         </Accordion.Trigger>
                         <Accordion.Content className="AccordionContent">
                             Yes, depending on the device, options to extend the warranty beyond the included 90 days, are available at checkout.
@@ -20,7 +20,7 @@ function FAQs() {
                     <Accordion.Item className="AccordionItem" value="item-2">
                         <Accordion.Trigger className="AccordionTrigger">
                             <span>How long does shipping take?</span>
-                            <ChevronDownIcon className="AccordionChevron" />
+                            <ChevronDownIcon className="AccordionChevron" aria-hidden/>
                         </Accordion.Trigger>
                         <Accordion.Content className="AccordionContent">
                             Orders are shipped within 24hrs via Free Ground shipping or USPS.

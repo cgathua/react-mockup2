@@ -1,4 +1,4 @@
-import { LapTimerIcon } from "@radix-ui/react-icons"
+import { LapTimerIcon } from "@radix-ui/react-icons";
 
 
 function Home(): JSX.Element {
@@ -8,7 +8,7 @@ function Home(): JSX.Element {
                 <article className="info">
                     <div className="delivery">
                         <small>Free shipping</small>
-                        <LapTimerIcon className="LapTimerIcon" />
+                        <LapTimerIcon className="LapTimerIcon" aria-label="Lap Timer Icon" />
                     </div>
                     <h1>Refurbished Phones</h1>
                     <p>The online store for refurbished iphones, 90 day warranty included.</p>
