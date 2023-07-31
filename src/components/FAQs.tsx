@@ -1,7 +1,7 @@
 import * as Accordion from '@radix-ui/react-accordion';
 import { ChevronDownIcon } from '@radix-ui/react-icons';
 
-function FAQs(): JSX.Element {
+function Faqs(): JSX.Element {
     return (
         <section id="faq">
             <h2>FAQs</h2>
@@ -73,4 +73,4 @@ function FAQs(): JSX.Element {
     );
 };
 
-export default FAQs
+export default Faqs
