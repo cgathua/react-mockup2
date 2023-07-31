@@ -1,5 +1,6 @@
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import { useState } from "react";
 
 type ULList = {
     id: number,
@@ -8,6 +9,8 @@ type ULList = {
 }[];
 
 const NavigationMenuDesktop = () => {
+
+    const[isNavShowing, setisNavshowing] = useState(false);
 
     let ulLists: ULList = [
         { id: 0, link: '#home', title: 'Home' },
@@ -58,10 +61,10 @@ const NavigationMenuDesktop = () => {
                     </NavigationMenu.Item>
                 </NavigationMenu.List>
             </NavigationMenu.Root>
-            <ul className={`NavBar2`}>
+            <ul className={`NavBar2 ${isNavShowing ? 'show_nav' : 'hide_nav'}`}>
                 {ulLists.map(elem => <li key={elem.id}><a aria-label="mobile nav" href={elem.link}>{elem.title}</a></li>)}
             </ul>
-            <button className="MenuBtn" aria-label="menu" aria-haspopup="true" aria-expanded="false"><HamburgerMenuIcon className="IconButton" /></button>
+            <button className="MenuBtn" onClick={() => setisNavshowing(!isNavShowing)}  aria-label="menu" aria-haspopup="true" aria-expanded="false"><HamburgerMenuIcon className="IconButton" /></button>
         </header>
     );
 };
