@@ -5,6 +5,7 @@ import Phones from './components/Phones';
 import Refurbished from './components/Refurbished';
 import FAQs from './components/Faqs';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Refurbished />
       <FAQs />
       <Contact />
+      <Footer />
     </>
   )
 }
