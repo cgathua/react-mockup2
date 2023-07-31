@@ -4,6 +4,7 @@ import NavigationMenuDesktop from './components/Navbar';
 import Phones from './components/Phones';
 import Refurbished from './components/Refurbished';
 import FAQs from './components/Faqs';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Phones />
       <Refurbished />
       <FAQs />
+      <Contact />
     </>
   )
 }
