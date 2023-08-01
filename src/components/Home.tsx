@@ -19,12 +19,11 @@ function Home(): JSX.Element {
                 <aside>
                     <img
                         src="pexels-jess-bailey.png"
-                        srcSet="pexels-jess-bailey600w.avif 640w, pexels-jess-bailey.png 960w"
-                        sizes="(max-width: 600px) 640w, 960w"
+                        srcSet="pexels-jess-bailey640w.webp 640w, pexels-jess-bailey768w.webp 768w, pexels-jess-bailey.png 960w"
+                        sizes="(max-width: 600px) 640w, (max-width: 768px) 768w, 960w"
                         alt="iphone X" 
                         width={960} 
                         height={720} 
-                        loading="eager"
                         className="HomeImage"
                     />
                 </aside>

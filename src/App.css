@@ -106,6 +106,7 @@ section[class="ProductsSection"] .container {
   gap: 2rem;
   text-align: center;
   padding: 1rem;
+  place-items: center;
 }
 
 .ProductsColumn h3 {
@@ -187,7 +188,8 @@ section[id="faq"] .container {
 }
 
 .AccordionTrigger {
-  background-color: var(--alternate-color);
+  font-family: inherit;
+  background-color: transparent;
   color: var(--secondary-color);
   cursor: pointer;
   height: 45px;
@@ -197,14 +199,14 @@ section[id="faq"] .container {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  font-size: 1rem;
+  font-size: 15px;
   text-align: left;
 }
 
 .AccordionContent {
   color: var(--secondary-color);
   overflow: hidden;
-  font-size: 1rem;
+  font-size: 15px;
 }
 
 .AccordionContent[data-state='open'] {
@@ -481,19 +483,19 @@ ul[class="footer-legal-items"] li {
     }
 
     section[id="home"] .container {
-      grid-template-columns: minmax(min-content, 1fr);
+      grid-template-columns: 1fr;
     }
 
     section[id="phones"] .container {
-      grid-template-columns: inherit;
+      grid-template-columns: 1fr;
     }
 
     section[id="refurbished"] .container {
-      grid-template-columns: inherit;
+      grid-template-columns: 1fr;
     }
 
     section[id="faq"] .container {
-      grid-template-columns: inherit;
+      grid-template-columns: 1fr;
     }
 
     section[id="contact"] .container {
@@ -503,6 +505,7 @@ ul[class="footer-legal-items"] li {
     .AccordionRoot {
       width: 100%;
     }
+
 
   }
 

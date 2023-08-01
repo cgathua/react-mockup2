@@ -19,48 +19,19 @@
     text-decoration: none;
     list-style: none;
     border: none;
-    font-family: 'Montserrat', sans-serif;
 }
 
 html {
-    line-height: 1.15;
-    /* 1 */
-    /* Correct the line height in all browsers. */
-    -webkit-text-size-adjust: 100%;
-    /* 2 */
     scroll-behavior: smooth;
 }
 
-b,
-strong {
-    font-weight: bolder;
-}
-
-/* Add the correct font weight in Chrome, Edge, and Safari. */
-
-small {
-    font-size: 80%;
-}
-
-/* Add the correct font size in all browsers. */
-
-fieldset {
-    padding: 0.35em 0.75em 0.625em;
-}
-
-/* Correct the padding in Firefox. */
-
-progress {
-    vertical-align: baseline;
-}
-
-/* Add the correct vertical alignment in Chrome, Firefox, and Opera. */
 
 body {
     min-height: 100vh;
     line-height: 1.75;
     color: var(--secondary-color);
     background-color: var(--alternate-color);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
