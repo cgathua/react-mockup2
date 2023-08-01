@@ -3,7 +3,7 @@ import Home from './components/Home';
 import NavigationMenuDesktop from './components/Navbar';
 import Phones from './components/Phones';
 import Refurbished from './components/Refurbished';
-import Faqs from './components/Faqs';
+import Faq from './components/Faq';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -14,7 +14,7 @@ function App(): JSX.Element {
       <Home />
       <Phones />
       <Refurbished />
-      <Faqs />
+      <Faq />
       <Contact />
       <Footer />
     </>

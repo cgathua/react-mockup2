@@ -2,7 +2,7 @@ import * as Accordion from '@radix-ui/react-accordion';
 import { ChevronDownIcon } from '@radix-ui/react-icons';
 import { Fragment } from 'react';
 
-function Faqs(): JSX.Element {
+const Faq = () => {
     return (
         <Fragment>
             <section id="faq">
@@ -76,4 +76,4 @@ function Faqs(): JSX.Element {
     );
 };
 
-export default Faqs
+export default Faq
