@@ -24,6 +24,7 @@ function Home(): JSX.Element {
                         alt="iphone X" 
                         width={960} 
                         height={720} 
+                        loading="eager"
                         className="HomeImage"
                     />
                 </aside>
