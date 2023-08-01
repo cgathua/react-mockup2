@@ -15,7 +15,7 @@ const Faq = () => {
                                 <ChevronDownIcon className="AccordionChevron" aria-hidden />
                             </Accordion.Trigger>
                             <Accordion.Content className="AccordionContent">
-                                Yes, depending on the device, options to extend the warranty beyond the included 90 days, are available at checkout.
+                                Yes, you can buy a warranty beyond the included 90 days.
                             </Accordion.Content>
                         </Accordion.Item>
 
