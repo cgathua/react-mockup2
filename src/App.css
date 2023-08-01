@@ -124,6 +124,7 @@ section[id="refurbished"] {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('/pexels-david-bartus-963278.jpg');
+
   @supports (background-image: url('/pexels-david-bartus-963278.webp')) {
     background-image: url('/pexels-david-bartus-963278.webp');
   }
@@ -452,7 +453,7 @@ ul[class="footer-legal-items"] li {
   /*end of hamburger menu */
 
   section[id="home"] .container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
   }
 
   section[id="phones"] .container {
@@ -462,6 +463,14 @@ ul[class="footer-legal-items"] li {
   section[id="refurbished"] .container {
     grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
 
+  }
+
+  section[id="faq"] .container {
+    grid-template-columns: 1fr;
+  }
+
+  section[id="contact"] .container {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   /* end of medium screens media queries */
@@ -496,4 +505,6 @@ ul[class="footer-legal-items"] li {
     }
 
   }
+
+  /* end of small screens media queries */
 }
