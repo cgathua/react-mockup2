@@ -1,7 +1,7 @@
 # react-mockup2
  A refurbished phone reseller site, built with react and typescript.
 
- live Preview @ https://www.react-mockup2.pages.dev
+ Live Website @ https://react-mockup2.pages.dev/
 
  photo credit:
  
