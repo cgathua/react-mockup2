@@ -169,12 +169,12 @@ section[id="faq"] .container {
 }
 
 .AccordionRoot {
-  width: 500px;
+  width: 37.5rem;
 }
 
 .AccordionItem {
-  border-bottom: 1px solid var(--primary-color);
-  
+  border-bottom: 1px solid var(--secondary-color);
+  padding: 0.5rem;
   background-color: var(--alternate-color);
   overflow: hidden;
 }
@@ -189,24 +189,24 @@ section[id="faq"] .container {
 
 .AccordionTrigger {
   font-family: inherit;
-  background-color: transparent;
+  background-color: var(--alternate-color);
   color: var(--secondary-color);
   cursor: pointer;
-  height: 50px;
+  height: 45px;
   line-height: 1;
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  font-size: 16px;
+  font-size: 15px;
   text-align: left;
 }
 
 .AccordionContent {
   color: var(--secondary-color);
   overflow: hidden;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .AccordionContent[data-state='open'] {
@@ -236,6 +236,7 @@ section[id="faq"] .container {
     height: 0;
   }
 }
+
 
 /* end of faqs section */
 
