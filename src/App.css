@@ -174,8 +174,8 @@ section[id="faq"] .container {
 
 .AccordionItem {
   border-bottom: 1px solid var(--secondary-color);
-  padding: 0.5rem;
   background-color: var(--alternate-color);
+  padding-bottom: 0.5rem;
   overflow: hidden;
 }
 

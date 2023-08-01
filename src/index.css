@@ -10,7 +10,7 @@
     --desktop-container: 86%;
     --mobile-container: 90%;
     --transition: all 0.3s linear;
-    --radix-accordion-content-height: 60px;
+    --radix-accordion-content-height: 300px;
 }
 
 * {
