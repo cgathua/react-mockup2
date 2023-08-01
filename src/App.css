@@ -164,17 +164,17 @@ section[id="refurbished"] h2 {
 
 section[id="faq"] .container {
   display: grid;
-  grid-template-columns: minmax(min-content, 1fr);
+  grid-template-columns: 1fr;
   place-items: center;
 }
 
 .AccordionRoot {
-  width: 37.5rem;
+  width: 500px;
 }
 
 .AccordionItem {
   border-bottom: 1px solid var(--primary-color);
-  padding: 0.5rem;
+  
   background-color: var(--alternate-color);
   overflow: hidden;
 }
@@ -192,21 +192,21 @@ section[id="faq"] .container {
   background-color: transparent;
   color: var(--secondary-color);
   cursor: pointer;
-  height: 45px;
+  height: 50px;
   line-height: 1;
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  font-size: 15px;
+  font-size: 16px;
   text-align: left;
 }
 
 .AccordionContent {
   color: var(--secondary-color);
   overflow: hidden;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .AccordionContent[data-state='open'] {
@@ -477,7 +477,7 @@ ul[class="footer-legal-items"] li {
 
   /* end of medium screens media queries */
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 600px) {
     .container {
       width: var(--mobile-container);
     }
@@ -505,7 +505,6 @@ ul[class="footer-legal-items"] li {
     .AccordionRoot {
       width: 100%;
     }
-
 
   }
 
