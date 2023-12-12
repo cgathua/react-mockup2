@@ -6,32 +6,32 @@ import LargeImage from '/pexels-jess-bailey768w.webp';
 
 function Home(): JSX.Element {
     return (
-        <section id="home" className="hero">
-            <div className="container">
+        <section id="home" className="hero" aria-label="home">
+            <figure className="container" aria-label="home content">
                 <article className="info">
-                    <div className="delivery">
+                    <span className="delivery">
                         <small>Free shipping</small>
                         <LapTimerIcon className="LapTimerIcon" aria-label="Lap Timer Icon" />
-                    </div>
+                    </span>
                     <h1>Refurbished Phones</h1>
                     <p>The online store for refurbished iphones, that include a 90 day warranty.
                         All phones are also repaired according to manufacturer specification.
                     </p>
                     <button className="btn">
-                        <a href="#phones">See Products</a>
+                        <a href="#phones" aria-label="see products">See Products</a>
                     </button>
                 </article>
                 <aside>
                     <img
                         src={DefaultImage}
-                        srcSet={`${MediumImage} 480w, ${LargeImage} 640w, ${DefaultImage} 960w`}
+                        srcSet={`${MediumImage} 640w, ${LargeImage} 768w, ${DefaultImage} 960w`}
                         alt="iphone X"
                         width={960}
                         height={720}
                         className="HomeImage"
                     />
                 </aside>
-            </div>
+            </figure>
         </section>
     );
 };

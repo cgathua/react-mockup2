@@ -2,9 +2,9 @@
 
 function Refurbished(): JSX.Element {
     return (
-        <section id="refurbished">
+        <section id="refurbished" aria-label="refurbished">
             <h2>Why Buy Refurbished</h2>
-            <div className="container">
+            <figure className="container" aria-label="refurbished content">
                 <article className="RefurbArticle">
                     <svg 
                         aria-label="dollar icon"
@@ -66,7 +66,7 @@ function Refurbished(): JSX.Element {
                     <h3 className="RefurbText">Peace Of Mind</h3>
                     <p className="RefurbPara">It's been professionally checked and repaired.</p>
                 </article>
-            </div>
+            </figure>
         </section>
     );
 };

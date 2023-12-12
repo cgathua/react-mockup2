@@ -1,9 +1,9 @@
 
 function Contact(): JSX.Element {
     return (
-        <section id="contact">
+        <section id="contact" aria-label="contact">
             <h2>Contact</h2>
-            <div className="container">
+            <figure className="container" aria-label="contact content">
                 <form action="contact-form" method="post" className="form">
                     <fieldset>
                         <legend>
@@ -22,7 +22,7 @@ function Contact(): JSX.Element {
                     <input type="submit" id="submit" value="Submit" />
                 </form>
 
-                <aside className="contact">
+                <address className="contact">
                     <h3>Contact Info</h3>
                     <p>Please feel free to reach out to us, for any queries.</p>
                     <ul className="contact_details">
@@ -77,8 +77,8 @@ function Contact(): JSX.Element {
                             <h4>Atlanta, Georgia</h4>
                         </li>
                     </ul>
-                </aside>
-            </div>
+                </address>
+            </figure>
         </section>
     );
 };

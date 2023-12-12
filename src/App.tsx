@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App(): JSX.Element {
   return (
     <>
-      <NavigationMenuDesktop /> 
+      <NavigationMenuDesktop />
       <Home />
       <Phones />
       <Refurbished />

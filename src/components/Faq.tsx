@@ -7,7 +7,7 @@ const Faq = () => {
         <Fragment>
             <section id="faq">
                 <h2>FAQs</h2>
-                <div className="container">
+                <figure className="container" aria-label='faq accordion'>
                     <Accordion.Root className="AccordionRoot" type="single" defaultValue="item-1" collapsible>
                         <Accordion.Item className="AccordionItem" value="item-1">
                             <Accordion.Trigger className="AccordionTrigger">
@@ -70,7 +70,7 @@ const Faq = () => {
                         </Accordion.Item>
 
                     </Accordion.Root>
-                </div>
+                </figure>
             </section>
         </Fragment>
     );

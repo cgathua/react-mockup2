@@ -10,7 +10,7 @@ type ULList = {
 
 const NavigationMenuDesktop = () => {
 
-    const[isNavShowing, setisNavshowing] = useState(false);
+    const [isNavShowing, setisNavshowing] = useState(false);
 
     let ulLists: ULList = [
         { id: 0, link: '#home', title: 'Home' },
@@ -21,7 +21,7 @@ const NavigationMenuDesktop = () => {
     ]
     return (
         <header>
-            <a href='#' className='logo'>Logo</a>
+            <a href='#' className='logo' aria-label='logo'>Logo</a>
             <NavigationMenu.Root className='NavigationMenuRoot' value='string'>
                 <NavigationMenu.List className='NavigationMenuList'>
                     <NavigationMenu.Item>
@@ -64,7 +64,7 @@ const NavigationMenuDesktop = () => {
             <ul className={`NavBar2 ${isNavShowing ? 'show_nav' : 'hide_nav'}`}>
                 {ulLists.map(elem => <li key={elem.id}><a aria-label="mobile nav" href={elem.link}>{elem.title}</a></li>)}
             </ul>
-            <button className="MenuBtn" onClick={() => setisNavshowing(!isNavShowing)}  aria-label="menu" aria-haspopup="true" aria-expanded="false"><HamburgerMenuIcon className="IconButton" /></button>
+            <button className="MenuBtn" onClick={() => setisNavshowing(!isNavShowing)} aria-label="menu" aria-haspopup="true" aria-expanded="false"><HamburgerMenuIcon className="IconButton" aria-hidden /></button>
         </header>
     );
 };

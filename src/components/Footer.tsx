@@ -9,20 +9,20 @@ function Footer(): JSX.Element {
         <footer>
             <section id="footer-socials" aria-label="social media">
                 <ul className="footer-icons">
-                    <li><a href="#" aria-label="discord"><DiscordLogoIcon  aria-hidden/></a></li>
-                    <li><a href="#" aria-label="twitter"><TwitterLogoIcon  aria-hidden/></a></li>
-                    <li><a href="#" aria-label="instagram"><InstagramLogoIcon  aria-hidden/></a></li>
-                    <li><a href="#" aria-label="linkedin"><LinkedInLogoIcon aria-hidden/></a></li>
-                    <li><a href="#home" aria-label="home"><HomeIcon  aria-hidden/></a></li>
+                    <li><a href="https://discord.com/" aria-label="discord"><DiscordLogoIcon aria-label='discord icon' /></a></li>
+                    <li><a href="https://twitter.com/" aria-label="twitter"><TwitterLogoIcon aria-label='twitter icon' /></a></li>
+                    <li><a href="https://www.instagram.com/" aria-label="instagram"><InstagramLogoIcon aria-label='instagram icon' /></a></li>
+                    <li><a href="https://www.linkedin.com/" aria-label="linkedin"><LinkedInLogoIcon aria-label='linkedIn icon' /></a></li>
+                    <li><a href="#home" aria-label="home"><HomeIcon aria-label="home icon" /></a></li>
                 </ul>
             </section>
 
             <section id="footer-legal" aria-label="legal">
                 <small>
                     <ul className="footer-legal-items">
-                        <li><a href="#">Terms &amp; Conditions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li>Made by <a href="https://cgathua.pages.dev/" target="_blank">@cgathua</a></li>
+                        <li><a href="#" aria-label='see terms & conditions'>Terms &amp; Conditions</a></li>
+                        <li><a href="#" aria-label='see privacy policy'>Privacy Policy</a></li>
+                        <li>Made by <a href="https://cgathua.pages.dev/" target="_blank" aria-label='cgathua'>@cgathua</a></li>
                     </ul>
                 </small>
             </section>
