@@ -79,18 +79,18 @@ h4 {
 }
 
 section {
-    padding: 4rem 0;
+    padding: 5rem 0;
 }
 
 section h2 {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 html,
 body {
-    width: auto;
-    overflow-x: hidden;
+    width: auto !important;
+    overflow-x: hidden !important;
 }
 
 /* End of global styling */

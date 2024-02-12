@@ -1,5 +1,6 @@
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import { SignalIcon } from '../assets/Signal';
 import { useState } from "react";
 
 type ULList = {
@@ -21,7 +22,7 @@ const NavigationMenuDesktop = () => {
     ]
     return (
         <header>
-            <a href='#' className='logo' aria-label='logo'>Logo</a>
+            <a href='#' className='logo' aria-label='logo'><SignalIcon aria-label="cellular signal icon" /></a>
             <NavigationMenu.Root className='NavigationMenuRoot' value='string'>
                 <NavigationMenu.List className='NavigationMenuList'>
                     <NavigationMenu.Item>

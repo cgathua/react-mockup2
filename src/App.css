@@ -20,8 +20,7 @@ header {
 
 .logo {
   color: var(--color-primary);
-  font-size: 1.25rem;
-  padding: 0 0.25rem;
+  margin-left: 1rem;
 }
 
 .logo:hover {
@@ -40,6 +39,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 1rem;
 }
 
 
@@ -73,7 +73,6 @@ section[class="hero"] .container {
   display: grid;
   grid-template-columns: repeat(2, minmax(min-content, 1fr));
   place-items: center;
-  padding: 1rem;
 }
 
 .HomeImage {
@@ -99,7 +98,7 @@ article[class="info"] .delivery {
 
 section[class="ProductsSection"] .container {
   display: grid;
-  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(min-content, 1fr);
+  grid-template-columns: repeat(3, minmax(min-content, 1fr));
   gap: 2rem;
   text-align: center;
   padding: 1rem;
@@ -130,7 +129,7 @@ section[id="refurbished"] {
 
 section[id="refurbished"] .container {
   display: grid;
-  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(min-content, 1fr);
+  grid-template-columns: repeat(3, minmax(min-content, 1fr));
   gap: 1rem;
   place-items: center;
 
@@ -239,7 +238,7 @@ section[id="faq"] .container {
 
 section[id="contact"] .container {
   display: grid;
-  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
+  grid-template-columns: repeat(2, minmax(min-content, 1fr));
   gap: 2rem;
   place-items: center;
 }
@@ -427,7 +426,7 @@ ul[class="footer-legal-items"] li {
   }
 
   .NavBar2 li {
-    padding: 1.5rem;
+    margin: 1.5rem 0;
     width: 100%;
   }
 
@@ -479,15 +478,15 @@ ul[class="footer-legal-items"] li {
   /*end of hamburger menu */
 
   section[id="home"] .container {
-    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
   }
 
   section[id="phones"] .container {
-    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
   }
 
   section[id="refurbished"] .container {
-    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
 
   }
 
@@ -496,7 +495,7 @@ ul[class="footer-legal-items"] li {
   }
 
   section[id="contact"] .container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
   }
 
   /* end of medium screens media queries */

@@ -1,5 +1,6 @@
-import { LapTimerIcon } from "@radix-ui/react-icons";
-import DefaultImage from '/pexels-jess-bailey.png';
+
+import { LapTimer } from "../assets/LapTimer";
+import DefaultImage from '/pexels-jess-bailey.webp';
 import MediumImage from '/pexels-jess-bailey640w.webp';
 import LargeImage from '/pexels-jess-bailey768w.webp';
 
@@ -11,7 +12,7 @@ function Home(): JSX.Element {
                 <article className="info">
                     <span className="delivery">
                         <small>Free shipping</small>
-                        <LapTimerIcon className="LapTimerIcon" aria-label="Lap Timer Icon" />
+                        <LapTimer aria-label="Lap Timer Icon"/>
                     </span>
                     <h1>Refurbished Phones</h1>
                     <p>The online store for refurbished iphones, that include a 90 day warranty.
