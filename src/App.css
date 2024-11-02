@@ -94,6 +94,9 @@ article[class="info"] .delivery {
   margin-left: 0.5rem;
 }
 
+.info p {
+  font-size: large;
+}
 /* end of home section */
 
 section[class="ProductsSection"] .container {
@@ -146,9 +149,10 @@ section[id="refurbished"] h2 {
 
 .RefurbArticle {
   background-color: var(--secondary-color);
-  text-align: center;
+  text-align: left;
   place-items: center;
   padding: 1rem;
+  height: 100%;
 }
 
 .RefurbText,

@@ -23,7 +23,7 @@ function Refurbished(): JSX.Element {
                         </path>
                     </svg>
                     <h3 className="RefurbText">Save Money</h3>
-                    <p className="RefurbPara">A refurbished phone is cheaper to buy, than new.</p>
+                    <p className="RefurbPara">A refurbished iphone is cheaper to buy, than new and you save money on a quality product.</p>
                 </article>
 
                 <article className="RefurbArticle">
@@ -44,7 +44,7 @@ function Refurbished(): JSX.Element {
                         </line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
                     </svg>
                     <h3 className="RefurbText">Less E-waste</h3>
-                    <p className="RefurbPara">It helps reduce e-waste, which benefits the planet.</p>
+                    <p className="RefurbPara">It helps reduce e-waste, by extending the life of the product, which benefits the planet.</p>
                 </article>
 
                 <article className="RefurbArticle">
@@ -64,7 +64,7 @@ function Refurbished(): JSX.Element {
                         </path><polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                     <h3 className="RefurbText">Peace Of Mind</h3>
-                    <p className="RefurbPara">It's been professionally checked and repaired.</p>
+                    <p className="RefurbPara">All phones have been professionally checked, cleaned and refurbished by a third party.</p>
                 </article>
             </figure>
         </section>
