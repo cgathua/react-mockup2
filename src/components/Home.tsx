@@ -18,7 +18,6 @@ function Home(): JSX.Element {
                     <p>The online store for refurbished iphones, that include a 90 day warranty.
                         All phones are also repaired according to manufacturer specification.
                     </p>
-                    <p>We also accept non-working phones, for recycling and you can also trade-in your old working phone.</p>
                     <button className="btn">
                         <a href="#phones" aria-label="see products">See Products</a>
                     </button>
