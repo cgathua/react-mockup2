@@ -421,7 +421,7 @@ ul[class="footer-legal-items"] li {
     justify-content: flex-start;
     position: fixed;
     top: 0;
-    transition: var(--transition);
+    transition: all 0.3s ease-out;
     height: 100vh;
     width: 16rem;
     padding: 1rem;
