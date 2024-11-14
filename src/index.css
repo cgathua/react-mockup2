@@ -93,4 +93,10 @@ body {
     overflow-x: hidden !important;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .btn {
+        transition: none;
+    }
+}
+
 /* End of global styling */
