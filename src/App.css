@@ -73,6 +73,7 @@ section[class="hero"] .container {
   display: grid;
   grid-template-columns: repeat(2, minmax(min-content, 1fr));
   place-items: center;
+  width: 100%;
 }
 
 .HomeImage {
@@ -93,7 +94,9 @@ article[class="info"] .delivery {
   position: relative;
   margin-left: 0.5rem;
 }
-
+.info {
+  width: var(--desktop-container);
+}
 .info p {
   font-size: large;
 }
@@ -511,6 +514,7 @@ ul[class="footer-legal-items"] li {
 
     section[id="home"] .container {
       grid-template-columns: 1fr;
+      width: var(--mobile-container);
     }
 
     section[id="phones"] .container {
@@ -531,6 +535,10 @@ ul[class="footer-legal-items"] li {
 
     .AccordionRoot {
       width: 100%;
+    }
+
+    .info {
+      width: var(--mobile-container);
     }
 
   }
